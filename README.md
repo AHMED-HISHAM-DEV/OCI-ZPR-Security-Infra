@@ -28,3 +28,11 @@ This infrastructure code has been developed and validated based on the **OCI Liv
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/AHMED-HISHAM-DEV/OCI-ZPR-Security-Infra.git](https://github.com/AHMED-HISHAM-DEV/OCI-ZPR-Security-Infra.git)
+
+
+2. Setup Variables: Create a terraform.tfvars file or provide your compartment_id when prompted during execution.
+
+3. Initialize & Apply:
+   terraform init
+   terraform plan
+   terraform apply
